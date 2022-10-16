@@ -5,7 +5,7 @@ import { useNavigation } from "@react-navigation/native";
 export function ScreenA() {
     const navigation = useNavigation()
     function goToScreen() {
-        navigation.navigate('screenB')
+        navigation.navigate('screenB', { name: 'Quewui' })
     }
 
 
